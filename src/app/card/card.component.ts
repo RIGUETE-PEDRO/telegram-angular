@@ -6,6 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent {
-
+  plano = {
+    infors:{
+      tipo: 'Simples',
+      preco: 100,
+    },
+  }
 
 }
