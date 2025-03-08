@@ -1,0 +1,10 @@
+$bgcolor:rgb(255, 255, 255);
+$cancelcolor: rgb(244, 22, 22);
+
+.card-cacel-button{
+  background-color: rgb(255, 0, 0) !important  ; //!importante ele coloca como mais importante sobrescrevendo outros
+}
+
+.mdc-slider__track--active_fill{
+  border-color: rgb(0, 255, 26) !important;
+}

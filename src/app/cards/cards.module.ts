@@ -5,6 +5,7 @@ import { CardButtonComponent } from '../card-button/card-button.component';
 import { CardRoxoButtonComponent } from '../card-roxo-button/card-roxo-button.component';
 import { CardRoxoComponent } from '../card-roxo/card-roxo.component';
 import { CardButtonCacelComponent } from '../card-button-cacel/card-button-cacel.component';
+import {MatSliderModule} from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { CardButtonCacelComponent } from '../card-button-cacel/card-button-cacel
    CardButtonCacelComponent
   ],
   imports: [
+    MatSliderModule
 
   ],
   exports: [
